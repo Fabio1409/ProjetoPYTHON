@@ -38,10 +38,9 @@ print('Acabou!')'''
 print('Acabou!')'''
   
 contador = 0
- 
 while contador < 100:
   contador += 1
   print(contador)
-  continue
-  if contador == 60:
-    print(contador)
+  
+  # if contador == 60:
+  #   print(contador)
