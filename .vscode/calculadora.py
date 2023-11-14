@@ -48,7 +48,7 @@ while True:
     print(f'{num_1_float} / {num_2_float} =',num_1_float / num_2_float)
   
   else:
-    print('Miguel e lindo')
+    print('Nunca deveria chegar até aqui.')
   
   sair = input('Quer sair? [s]im: \n>>> ').lower().startswith('s') 
   
