@@ -31,7 +31,36 @@
 For + Range
 range -> range(start, stop, step)
 """
-numeros = range(0, 100, 8)
+# numeros = range(0, 100, 8)
 
-for numero in numeros:
-    print(numero)
+# for numero in numeros:
+#     print(numero)
+
+
+    #ITERÁVEL --> STR,RANGE,ETC
+    #ITERADOR --> QUEM SABE ENTREGAR UM VALOR POR VEZ
+    #NEXT     --> ME ENTREGA O PROXIMO VALOR 
+    #ITER     --> ME ENTREGA SEU ITERADOR
+
+# texto = iter('joseFabio') # = __iter__()
+# print(next(texto))
+# print(next(texto))
+# print(next(texto))
+# print(next(texto))
+# print(next(texto))
+# print(next(texto))
+# print(next(texto))
+# print(next(texto))
+# print(next(texto))
+
+#   for letra in texto
+texto = 'JoseFabio' # iterável
+iterador = iter(texto) # iterador
+
+while True:
+    try:
+        letra = next(iterador)
+        print(letra)
+
+    except StopIteration:
+        break
